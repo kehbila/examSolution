@@ -1,13 +1,10 @@
 package examSolution.co.za;
-
+import java.util.Scanner;
 public class Student extends Person {
-
-	public Student() {
-		// TODO Auto-generated constructor stub
-	}
+	int studentNumber;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
 
 	}
 

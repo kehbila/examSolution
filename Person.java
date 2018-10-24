@@ -2,9 +2,11 @@ package examSolution.co.za;
 
 public class Person {
 
-	public static void main(String[] args) {
-		
-
-	}
+	private String name;
+	private int age;
+	private int idNumber;
+	private char gender;
+	
+	
 
 }
