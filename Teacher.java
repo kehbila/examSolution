@@ -6,5 +6,16 @@ public class Teacher extends Person {
 		
 
 	}
+	public void setExam() {
+		
+		
+	}
+	public void markExam() {
+		
+		
+	}
+	
+	
+	
 
 }
