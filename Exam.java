@@ -1,5 +1,8 @@
+package examSolution.co.za;
+
 public class Exam{
-	private String name = "Java";
+	
+	private String examName = "Java";
 	private String type = "multipleChoice";
 	private String duration = "1Hour";
 	
