@@ -1,8 +1,8 @@
 package examSolution.co.za;
 import java.util.Scanner;
+
 public class Student extends Person {
 	
-
 	public static void main(String[] args) {
 		
 		int studentNumber;
@@ -11,7 +11,7 @@ public class Student extends Person {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Full Names");
-		name = sc.nextInt(),
+		name = sc.nextInt();
 				
 		System.out.println("Enter your age");
 		age = sc.nextInt();
