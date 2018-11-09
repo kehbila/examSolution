@@ -4,7 +4,7 @@ public abstract class Person {
 
 	private String name;
 	private int age;
-	private int idNumber;
+	private long idNumber;
 	private String gender;
 	private boolean isLoggedIn;
 	private String username;
@@ -56,11 +56,11 @@ public abstract class Person {
 		this.age = age;
 	}
 
-	public int getIdNumber() {
+	public long getIdNumber() {
 		return this.idNumber;
 	}
 
-	public void setIdNumber(int idNumber) {
+	public void setIdNumber(long idNumber) {
 		this.idNumber = idNumber;
 	}
 

@@ -16,9 +16,8 @@ public class Test {
 
             System.out.println("press 1 to register or 2 to login");
             int loginRegisterOption = sc.nextInt();
-            
+
             if (loginRegisterOption == 1) {
-                
 
                 System.out.println("Enter your age");
                 int age = sc.nextInt();
@@ -37,9 +36,9 @@ public class Test {
 
                 System.out.println("Enter your password");
                 String password = sc.nextLine();
-                
+
                 System.out.println(4567543);
-                
+
                 System.out.print("Enter your name: ");
                 String name = sc.nextLine();
 
@@ -58,7 +57,6 @@ public class Test {
 
         } else {
 
-            
             System.out.println("press 1 to register or 2 to login");
             int loginRegisterOption = sc.nextInt();
             if (loginRegisterOption == 1) {

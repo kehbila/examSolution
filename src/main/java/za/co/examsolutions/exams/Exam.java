@@ -1,5 +1,7 @@
 package za.co.examsolutions.exams;
 
+import za.co.examsolutions.questions.Question;
+
 public class Exam {
 
 	private String examName;
@@ -10,9 +12,9 @@ public class Exam {
 	public Exam() {
 	}
 
-	public Exam(String examName, String examType, int duration) {
+	public Exam(String examName, String type, int duration) {
 		this.examName = examName;
-		this.examType = examType;
+		this.type = type;
 		this.duration = duration;
 	}
 
@@ -32,11 +34,11 @@ public class Exam {
 		this.type = type;
 	}
 
-	public String getDuration() {
+	public int getDuration() {
 		return duration;
 	}
 
-	public void setDuration(String duration) {
+	public void setDuration(int duration) {
 		this.duration = duration;
 	}
 

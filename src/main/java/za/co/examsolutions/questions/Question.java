@@ -1,5 +1,7 @@
 package za.co.examsolutions.questions;
 
+import za.co.examsolutions.answers.Answer;
+
 public class Question {
 
 	private float score;

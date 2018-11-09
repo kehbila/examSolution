@@ -1,5 +1,7 @@
 package za.co.examsolutions.people;
 
+import za.co.examsolutions.exams.Exam;
+
 public class Student extends Person {
 	private int studentNumber;
 
